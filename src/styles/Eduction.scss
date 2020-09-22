@@ -1,0 +1,24 @@
+@import '../styles/variables.scss';
+ul{
+  position: relative;
+}
+
+li{
+  display: flex;
+  margin: 15px 0 15px 0;
+}
+
+.year{
+  width:10%;
+  font-weight: bold;
+}
+li div {
+  background-color: $gray;
+  text-align: left;
+  width: 90%;
+}
+div h4,
+li div p{
+  padding: 10px;
+}
+
